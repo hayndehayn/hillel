@@ -61,3 +61,17 @@ footer {
   font-weight: 600;
   color: white;
 }
+
+td {
+  border: solid 3px black;
+  width: 20px;
+  height: 20px;
+}
+
+.nob {
+  border: 0px;
+}
+
+table {
+  border-collapse: collapse;
+}
