@@ -1,21 +1,33 @@
+@font-face {
+  font-family: eRegular;
+  src: url(/fonts/e-Ukraine-Regular.woff);
+}
+
+@font-face {
+  font-family: eMedium;
+  src: url(/fonts/e-Ukraine-Medium.woff);
+}
+
+@font-face {
+  font-family: eBold;
+  src: url(/fonts/e-Ukraine-Bold.woff);
+}
+
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .header {
+  position: sticky;
   background-color: rgb(168, 160, 160);
   padding: 10px 10px 60px 10px;
   text-align: center;
 }
 
-.title {
-  color: white;
-  font-size: 42px;
-}
-
-main {
-  padding: 30px 20px 30px 20px;
+a {
+  font-family: eMedium;
 }
 
 .button {
@@ -33,6 +45,49 @@ main {
   background-color: rgb(60, 60, 60);
 }
 
+p {
+  font-family: eRegular ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: eBold;
+}
+
+.title {
+  color: white;
+  font-size: 42px;
+}
+
+main {
+  padding: 30px 20px 30px 20px;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.text-container {
+  clear: both;
+}
+
+.image-float-left {
+  float: left;
+}
+
+.image-float-right {
+  float: right;
+}
+
+.img-padding {
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
 .photos {
   text-align: center;
   margin: 0 auto;
@@ -40,38 +95,30 @@ main {
   height: 600px;
 }
 
+
 footer {
+  clear: both;
   display: flex;
-  justify-content: center;
-  position: absolute;
+  position: sticky;
   bottom: auto;
-  padding: 30px 500px 10px 500px;
-  text-align: center;
+  padding: 30px 100px 30px 100px;
+  align-items: center;
   background-color: rgb(168, 160, 160);
+}
+
+.footer-container {
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .footer-link {
   padding: 0px 10px 0px 10px;
-  font-weight: 500;
   text-decoration: none;
   color: white;
-}
-
-.rights {
-  font-weight: 600;
-  color: white;
-}
-
-td {
-  border: solid 3px black;
-  width: 20px;
-  height: 20px;
-}
-
-.nob {
-  border: 0px;
-}
-
-table {
-  border-collapse: collapse;
 }
