@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="title">Gallery</h1>
-        <a href="/index.html" class="button">Main</a>
-        <a href="articles.html" class="button">Articles</a>
-        <a href="about.html" class="button">About me</a>
-        <a href="contacts.html" class="button">Contacts</a>
+    <header class="header-container">
+        <div class="header-links">
+            <a href="/index.html" class="button">Main Page</a>
+            <a href="gallery.html" class="button button-focus">Gallery</a>
+            <a href="articles.html" class="button">Articles</a>
+            <a href="about.html" class="button">About me</a>
+            <a href="contacts.html" class="button">Contacts</a>
+        </div>
     </header>
 
-    <main>
-        <section class="photos">
-            <h2>Photos</h2>
+    <section class="photos">
+        <h2>Photos</h2>
+        <div class="grid">
             <a href="/img/byzantine.png" target="_blank" title="Latin Empire Flag">
                 <img src="/img/byzantine.png" alt="Byzantine" width="200">
             </a>
@@ -38,17 +40,18 @@
             <a href="/img/orden.png" target="_blank" title="Orden">
                 <img src="/img/orden.png" alt="Greckyi Orden Yakiys" width="200">
             </a>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
-        <section>
-            <a href="#" class="footer-link">Майбутнє посилання</a>
-            <a href="#" class="footer-link">Майбутнє посилання</a>
-            <a href="#" class="footer-link">Майбутнє посилання</a>
-            <a href="#" class="footer-link">Майбутнє посилання</a>
-            <p class="rights">АРТЕМА1!&copy;</p>
-        </section>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#" class="footer-link">Майбутнє посилання</a>
+                <a href="#" class="footer-link">Майбутнє посилання</a>
+                <a href="#" class="footer-link">Майбутнє посилання</a>
+                <a href="#" class="footer-link">Майбутнє посилання</a>
+            </div>
+        </div>
     </footer>
 </body>
 
