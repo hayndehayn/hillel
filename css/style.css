@@ -1,16 +1,16 @@
 @font-face {
   font-family: eRegular;
-  src: url(/fonts/e-Ukraine-Regular.woff);
+  src: url(../fonts/e-Ukraine-Regular.woff);
 }
 
 @font-face {
   font-family: eMedium;
-  src: url(/fonts/e-Ukraine-Medium.woff);
+  src: url(../fonts/e-Ukraine-Medium.woff);
 }
 
 @font-face {
   font-family: eBold;
-  src: url(/fonts/e-Ukraine-Bold.woff);
+  src: url(../fonts/e-Ukraine-Bold.woff);
 }
 
 
