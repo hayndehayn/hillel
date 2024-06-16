@@ -146,3 +146,82 @@ footer {
   text-decoration: none;
   color: white;
 }
+
+
+.item--yellow {
+  background-color: rgb(246, 206, 6);
+}
+
+.item--green {
+  background-color: rgb(15, 154, 15);
+}
+
+.item--blue {
+  background-color: rgb(18, 77, 179);
+}
+
+.main__items {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  background-color: rgb(86, 87, 87);
+  border: 6px solid rgb(40, 40, 40);
+}
+
+.second__section--modifier {
+  display: flex;
+  justify-content: center;
+}
+
+.main__item {
+  padding: 50px 150px 30px 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 5px solid black;
+}
+
+.first__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second__section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.third__section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.four__section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.five__section {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.third__section--start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.third__section--end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
