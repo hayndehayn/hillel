@@ -1,0 +1,24 @@
+.how-i__title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text__work {
+text-align: center;
+white-space: pre-line;
+}
+.img__rectangle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+    .img__btn {
+        position: absolute;
+        top: 40%;
+        background: none;
+        border: none;
+    }
+}
+    

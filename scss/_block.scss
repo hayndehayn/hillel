@@ -1,0 +1,20 @@
+.block {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    color: $color-contrast;
+    background-color: $color-accent;
+    min-height: 250px;
+    margin-top: 100px;
+    gap: 45px;
+
+    .block__item {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        }
+        
+        .block__img {
+        margin-right: 20px;
+        }
+}

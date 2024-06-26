@@ -1,0 +1,18 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: $color-accent;
+    color: $color-contrast;
+    
+    .footer__name {
+        color: $color-contrast;
+        margin: 0 0 20px;
+        font-size: 21px;
+    }
+
+    .footer__copyright {
+        font-size: 13px;
+        margin: 0;
+    }
+}
+    

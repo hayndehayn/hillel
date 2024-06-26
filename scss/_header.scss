@@ -1,0 +1,29 @@
+.header {
+    padding-top: 80px;
+    padding-right: 535px;
+    background: $bg-main;
+    top: 0;
+    .nav {
+        display: flex;
+        .nav__list {
+            display: flex;
+            color: $color-main;
+            margin: 0 auto;
+            list-style: none;
+            gap: 42px;
+            .nav__link {
+                color: $color-title;
+                letter-spacing: 0.1em;
+                text-decoration: none;
+                text-transform: uppercase;
+                &:hover, &:focus {
+                    text-decoration: underline;
+                }
+            }
+            .nav__link.nav__link--active {
+                color: $color-accent;
+                font-weight: 500;
+            }
+        }
+    }
+}
