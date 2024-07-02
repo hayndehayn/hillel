@@ -2,43 +2,30 @@
     padding-top: 142px;
     padding-bottom: 142px;
 
-    .offer__container {
+    &__container {
         max-width: 540px;
         }
 
-        .offer__title {
+        &__title {
             margin: 0 0 60px;
         }
 
-        .offer__desc {
+        &__desc {
             margin: 0 0 60px;
         }
+}
 
-        .btn {
-            background: $color-accent;
-            color: $color-contrast;
-            text-decoration: none;
-            max-width: 225px;
-            width: 100%;
-            min-height: 65px;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px 40px;
-            box-sizing: border-box;
-            &:hover, &:focus {
-                background: $color-main;
-                color: $bg-accent;
-                transition: 0.6s ease-in-out;
-                }
+
+@media screen and (max-width: 1215px) {
+    .offer {
+        padding-left: 50px;
+        .offer__container {
+            .offer__title {
+                font-size: 28px;
+            }
+            .offer__desc {
+                font-size: 16px;
+            }
         }
-}
-
-.text__about {
-    text-align: center;
-}
-
-.text__about-me {
-    text-align: center;
-    white-space: pre-line;
+    }
 }

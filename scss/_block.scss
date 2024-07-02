@@ -4,17 +4,34 @@
     justify-content: center;
     color: $color-contrast;
     background-color: $color-accent;
-    min-height: 250px;
+    min-height: 200px;
     margin-top: 100px;
     gap: 45px;
-
-    .block__item {
+    overflow: hidden;
+    &__item {
         display: flex;
         align-items: center;
         margin: 10px 0;
         }
         
-        .block__img {
+        &__img {
         margin-right: 20px;
         }
+}
+
+
+@media screen and (max-width: 1215px) {
+    .block {
+        padding-right: 200px;
+        justify-content: flex-start;
+        padding-left: 100px;
+
+        .block__item {
+            width: 10%;
+            font-size: 12px;
+            .block__img {
+                width: 100px;
+            }
+        }
+    }
 }
