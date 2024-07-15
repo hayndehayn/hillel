@@ -1,4 +1,5 @@
 .offer {
+
     padding-top: 142px;
     padding-bottom: 142px;
 
@@ -8,6 +9,7 @@
 
         &__title {
             margin: 0 0 60px;
+
         }
 
         &__desc {
@@ -16,15 +18,16 @@
 }
 
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 868px) {
     .offer {
         padding-left: 50px;
+        padding-top: 50px;
         .offer__container {
             .offer__title {
-                font-size: 28px;
+                font-size: 16px;
             }
             .offer__desc {
-                font-size: 16px;
+                font-size: 10px;
             }
         }
     }

@@ -27,3 +27,22 @@
         }
     }
 }
+
+
+@media screen and (max-width: 868px) {
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 10px;
+        padding-top: 50px;
+        .nav {
+            &__list {  
+                width: 500px;
+                gap: 20px;
+                .nav__link {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}

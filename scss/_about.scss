@@ -1,6 +1,5 @@
 .text {
     .text__center {
-
         .text__about {
             text-align: center;
         }
@@ -8,6 +7,22 @@
         .text__about-me {
             text-align: center;
             white-space: pre-line;
+        }
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .text {
+        .text__center {
+            padding-right: 320px;
+            
+            .text__about {
+                font-size: 16px;
+            }
+
+            .text__about-me {
+                font-size: 12px;
+            }
         }
     }
 }

@@ -1,11 +1,9 @@
 .block {
     display: flex;
-    box-sizing: border-box;
     justify-content: center;
     color: $color-contrast;
     background-color: $color-accent;
     min-height: 200px;
-    margin-top: 100px;
     gap: 45px;
     overflow: hidden;
     &__item {
@@ -20,17 +18,20 @@
 }
 
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 868px) {
     .block {
-        padding-right: 200px;
+        display: flex;
         justify-content: flex-start;
+        gap: 100px;
         padding-left: 100px;
 
         .block__item {
-            width: 10%;
-            font-size: 12px;
+            
+            width: 0 calc(50vw - 555px);
+            font-size: 10px;
             .block__img {
-                width: 100px;
+                width: 40px;
+                margin-right: 10px;
             }
         }
     }

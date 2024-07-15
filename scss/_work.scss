@@ -1,12 +1,15 @@
-.how-i__title {
+.work__container {
+    .work__title {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .work__text {
     text-align: center;
-    margin-top: 100px;
+    white-space: pre-line;
+    }
 }
 
-.text__work {
-text-align: center;
-white-space: pre-line;
-}
 .img__rectangle {
     display: flex;
     position: relative;
@@ -21,4 +24,26 @@ white-space: pre-line;
         border: none;
     }
 }
-    
+
+
+@media screen and (max-width: 868px) {
+    .work__container {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 180px;
+    }
+
+    .img__rectangle {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 150px;
+
+        .img {
+            width: 800px;
+        }
+
+        .img__btn {
+            padding-left: 350px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: $color-accent;
+    color: $color-contrast;
+    &__name {
+        color: $color-contrast;
+        margin: 0 0 20px;
+        font-size: 22px;
+    }
+    &__copyright {
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .footer {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 50px;
+
+        &__name {
+            font-size: 14px;
+        }
+
+        &__copyright {
+            font-size: 10px;
+        }
+    }
+}

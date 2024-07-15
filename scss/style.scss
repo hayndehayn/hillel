@@ -21,10 +21,10 @@ padding: 0 calc(50vw - 555px);
 box-sizing: border-box;
 }
 
-@import 'header';
-@import 'offer';
+@import 'common/header';
+@import 'common/offer';
 @import 'work';
 @import 'about';
-@import 'btn';
+@import 'ui/btn';
 @import 'block';
-@import 'footer';
+@import 'common/footer';
